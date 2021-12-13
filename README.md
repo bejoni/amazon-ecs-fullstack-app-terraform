@@ -18,7 +18,7 @@
    * [Cleanup](#cleanup)
    * [Security](#security)
    * [License](#license)
-   
+
 
 ## Solution overview
 
@@ -124,7 +124,7 @@ Example of the previous command with replaced dummy values:
 ```shell
 terraform plan -var aws_profile="development" -var aws_region="eu-central-1" -var environment_name="developmentenv" -var github_token="your-personal-token" -var repository_name="your-github-repository" -var repository_owner="the-github-repository-owner"
 ```
- 
+
 **5.** Review the terraform plan, take a look at the changes that terraform will execute:
 
 ```shell

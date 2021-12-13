@@ -12,8 +12,10 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Created_by = "Terraform"
-      Project    = "AWS_demo_fullstack_devops"
+      Created_by   = "Terraform"
+      Project      = "AWS_demo_fullstack_devops"
+      environment  = "sbx"
+      provisioning = "terraform"
     }
   }
 }
